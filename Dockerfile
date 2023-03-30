@@ -8,4 +8,4 @@ RUN echo $(ls -1)
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT [ "python", "run.py" ]
+ENTRYPOINT [ "python", "/app/run.py" ]
